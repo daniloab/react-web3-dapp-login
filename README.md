@@ -1,11 +1,11 @@
 
 # React Web3 DApp Login
 
-![wallet]('./public/wallet.png');
+![wallet](./public/wallet.png);
 
-![wallet2]('./public/wallet2.png');
+![wallet2](./public/wallet2.png);
 
-![wallet3]('./public/wallet3.png');
+![wallet3](./public/wallet3.png);
 
 A simple react web3 login for dapps using:
 
