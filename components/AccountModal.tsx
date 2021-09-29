@@ -16,11 +16,12 @@ import { ExternalLinkIcon, CopyIcon } from "@chakra-ui/icons";
 import { useEthers } from "@usedapp/core";
 import Identicon from "./Identicon";
 
-type Props = {
+type AccountModalProps = {
   isOpen: any;
   onClose: any;
 };
-export default function AccountModal({ isOpen, onClose }: Props) {
+
+const AccountModal = ({ isOpen, onClose }: AccountModalProps) => {
   const { account, deactivate } = useEthers();
 
   function handleDeactivateAccount() {
@@ -153,4 +154,6 @@ export default function AccountModal({ isOpen, onClose }: Props) {
       </ModalContent>
     </Modal>
   );
-}
+};
+
+export default AccountModal;
