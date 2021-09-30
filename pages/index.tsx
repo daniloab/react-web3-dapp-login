@@ -3,7 +3,7 @@ import { ChakraProvider, useDisclosure } from "@chakra-ui/react";
 import Layout from "../components/Layout";
 import ConnectButton from "../components/ConnectButton";
 import "@fontsource/inter";
-import theme from "./theme";
+import theme from "../theme";
 import AccountModal from "../components/AccountModal";
 
 const Home: NextPage = () => {
